@@ -1,6 +1,6 @@
 package com.test;
 
-public class Demo2Student {
+public class Demo1Student {
     public static void main(String[] args) {
         Student stu1 = new Student();
 
