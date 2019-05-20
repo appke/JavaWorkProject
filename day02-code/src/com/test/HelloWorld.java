@@ -1,4 +1,4 @@
-package com.appke;
+package com.test;
 
 public class HelloWorld {
     public static void main(String[] args) {
@@ -9,8 +9,6 @@ public class HelloWorld {
 
         int age;
         String name;
-
-
 
     }
 }

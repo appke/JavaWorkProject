@@ -1,6 +1,6 @@
 package com.test;
 
-public class Demo1Student {
+public class Demo01Student {
     public static void main(String[] args) {
         Student stu1 = new Student();
 
@@ -12,5 +12,6 @@ public class Demo1Student {
 
         Student stu2 = new Student("xiaoming", 12, false);
         stu2.printInfo();
+
     }
 }

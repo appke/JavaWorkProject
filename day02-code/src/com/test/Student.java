@@ -2,6 +2,9 @@ package com.test;
 
 import javax.sound.midi.Soundbank;
 
+/*
+* 一个完整的类
+* */
 public class Student {
 
     private String name;
