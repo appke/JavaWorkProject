@@ -11,6 +11,9 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+
+    Hello Servlet ------
+
+
   </body>
 </html>
