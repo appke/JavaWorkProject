@@ -10,5 +10,8 @@ public class HelloWorld {
         int age;
         String name;
 
+        System.out.println(System.getProperty("user.dir"));
+        System.out.println(System.getProperty("user.home"));
+
     }
 }
