@@ -2,15 +2,15 @@ package com.test;
 
 import java.util.Objects;
 
-public class Person {
+public class Person2 implements Comparable<Person2> {
 
     private int age;
     private String name;
 
-    public Person() {
+    public Person2() {
     }
 
-    public Person(String name, int age) {
+    public Person2(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -19,7 +19,7 @@ public class Person {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
+        Person2 person = (Person2) o;
         return age == person.age &&
                 Objects.equals(name, person.name);
     }
@@ -53,4 +53,11 @@ public class Person {
                 '}';
     }
 
+
+    @Override
+    public int compareTo(Person2 o) {
+        // return 0; //认为元素都是相同的
+        // 按年龄升序
+        return this.getAge() - o.getAge();
+    }
 }

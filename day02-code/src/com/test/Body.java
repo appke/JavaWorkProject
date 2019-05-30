@@ -5,13 +5,9 @@ public class Body {
     private String name;
     private int num=10;
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public void setName(String name) { this.name = name; }
 
     public void methodBody() {
         System.out.println("外部类的方法---");
@@ -20,7 +16,6 @@ public class Body {
     }
 
     public class Heart {
-
         private int num=20;
 
         public void beat() {
@@ -34,5 +29,4 @@ public class Body {
             System.out.println("外部类成员变量："+Body.this.num);
         }
     }
-
 }
