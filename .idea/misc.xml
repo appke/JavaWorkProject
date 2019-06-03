@@ -8,8 +8,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/travel/pom.xml" />
-        <option value="$PROJECT_DIR$/maven_java/pom.xml" />
         <option value="$PROJECT_DIR$/maven_javaweb/pom.xml" />
+        <option value="$PROJECT_DIR$/maven_mysql/pom.xml" />
       </list>
     </option>
   </component>
