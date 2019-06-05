@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/day02-code/day02-code.iml" filepath="$PROJECT_DIR$/day02-code/day02-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day04-code/day04-code.iml" filepath="$PROJECT_DIR$/day04-code/day04-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_mybaits/demo_mybaits.iml" filepath="$PROJECT_DIR$/demo_mybaits/demo_mybaits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_servlet3/demo_servlet3.iml" filepath="$PROJECT_DIR$/demo_servlet3/demo_servlet3.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven_javaweb/maven_javaweb.iml" filepath="$PROJECT_DIR$/maven_javaweb/maven_javaweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven_mysql/maven_mysql.iml" filepath="$PROJECT_DIR$/maven_mysql/maven_mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel/travel.iml" filepath="$PROJECT_DIR$/travel/travel.iml" />

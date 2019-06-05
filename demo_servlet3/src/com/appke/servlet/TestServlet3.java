@@ -1,11 +1,15 @@
-package com.web;
+package com.appke.servlet;
+
 
 import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
-
-public class TestServlet implements Servlet {
-
+//demo_servlet3_war_exploded
+//@WebServlet(urlPatterns="/demo")
+//@WebServlet(value="/demo2")
+@WebServlet("/demo3")
+public class TestServlet3 implements Servlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
 
@@ -19,10 +23,8 @@ public class TestServlet implements Servlet {
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
 
-        // 提供服务的方法
-        System.out.println("Hello Servlet---");
+        System.out.println("Servlet3来啦 ---- ---1111");
     }
-
 
     @Override
     public String getServletInfo() {
@@ -33,6 +35,4 @@ public class TestServlet implements Servlet {
     public void destroy() {
 
     }
-
-
 }
