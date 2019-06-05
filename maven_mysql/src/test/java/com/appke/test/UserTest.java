@@ -5,7 +5,14 @@ import com.appke.dao.impl.UserDaoImpl;
 import com.appke.domain.User;
 import org.junit.Test;
 
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.net.URL;
+import java.util.Enumeration;
 import java.util.List;
+import java.util.Properties;
+import java.util.Set;
 
 public class UserTest {
 
@@ -17,6 +24,7 @@ public class UserTest {
         for (User user : all) {
             System.out.println(user.getId()+" ----- "+ user.getName());
         }
-
     }
+
+
 }

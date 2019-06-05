@@ -34,6 +34,9 @@ public class UserDaoImpl implements UserDao {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
+
+
+
             try {
                 rs.close();
                 pst.close();
