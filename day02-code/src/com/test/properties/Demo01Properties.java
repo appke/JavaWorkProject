@@ -19,5 +19,6 @@ public class Demo01Properties {
             String value = prop.getProperty(key);
             System.out.println(key + "----" + value);
         }
+
     }
 }
